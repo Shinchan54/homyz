@@ -23,3 +23,13 @@ $('#scroll').owlCarousel({
         }
     }
 })
+
+/*===========SCROLL REVEAL ANIMATION===============*/
+const sr = ScrollReveal({
+    origin:'top',
+    destance:'60px',
+    duration:2500,
+    delay:400,
+    // reset:true
+  });
+sr.reveal(`#head h1`)

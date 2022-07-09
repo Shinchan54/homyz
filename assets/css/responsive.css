@@ -66,13 +66,19 @@ width: 100%;
   }
 
 }
+@media (max-width:450px){
+  #cards h1{
+  font-size: 30px;
+  }
+
+}
 @media screen and (min-width:768px) and (max-width:992px){
 
   #cards .container{
     max-width: 720px;
   }
 }
-@media screen and (min-width: 550px) and (max-width: 768px){ 
+@media screen and (min-width: 550px) and (max-width: 768px){
 #cards .container {
     max-width: 520px;
 }
